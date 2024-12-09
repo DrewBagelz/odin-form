@@ -7,7 +7,12 @@
 }
 
 :root {
-	--color-left-text: rgb(255, 255, 255);
+	--color-left-text: #ffffff;
+	--color-dark-background: #596d48;
+	--color-light-border: #e5e7eb;
+	--color-focus: #0b54db;
+	--color-valid: #0bdb38;
+	--color-invalid: #db0b0b;
 }
 
 body {
