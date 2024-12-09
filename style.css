@@ -8,7 +8,8 @@
 
 :root {
 	--color-left-text: #ffffff;
-	--color-dark-background: #596d48;
+	--color-dark-background: #f9fafb;
+	--color-button: #596d48;
 	--color-light-border: #e5e7eb;
 	--color-focus: #0b54db;
 	--color-valid: #0bdb38;
@@ -59,4 +60,18 @@ body {
 
 .photo-credit a {
 	color: var(--color-left-text);
+}
+
+.right-container {
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: var(--color-dark-background);
+	margin: 0;
+	padding: 4em 4em 2em 2em;
+	font-size: 1.25rem;
+	font-weight: bold;
 }
