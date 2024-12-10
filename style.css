@@ -21,6 +21,7 @@ body {
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
@@ -87,7 +88,21 @@ body {
 form {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	font-size: 0.75rem;
 	padding-left: 3.333em;
+}
+
+input {
+	margin-right: 10em;
+	width: 80%;
+}
+
+.row {
+	display: flex;
+	margin-bottom: 1.5em;
+}
+
+.input-pair {
+	display: flex;
+	flex-direction: column;
 }
