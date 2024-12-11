@@ -98,7 +98,7 @@ input:focus {
 	outline: none;
 	border: 1px solid var(--color-focus);
 	border-radius: 2px;
-	box-shadow: 3px 3px 10px silver;
+	box-shadow: 3px 3px 5px rgb(226, 225, 225);
 }
 
 input:invalid {
@@ -118,6 +118,10 @@ input:invalid {
 }
 
 .fields {
-	box-shadow: 0 3px 3px silver;
+	box-shadow: 1px 3px 4px rgb(226, 225, 225);
 	margin-bottom: 2em;
+}
+
+.button {
+	background-color: var(--color-dark-background);
 }
