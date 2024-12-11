@@ -11,7 +11,7 @@
 	--color-dark-background: #f9fafb;
 	--color-button: #596d48;
 	--color-light-border: #e5e7eb;
-	--color-focus: #0b54db;
+	--color-focus: #0b99db;
 	--color-valid: #0bdb38;
 	--color-invalid: #db0b0b;
 }
@@ -85,6 +85,7 @@ form {
 	flex-direction: column;
 	font-size: 0.75rem;
 	font-weight: 600;
+	line-height: 1.3;
 }
 
 input {
