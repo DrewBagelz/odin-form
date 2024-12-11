@@ -24,6 +24,7 @@ body {
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
+	background-color: var(--color-dark-background);
 }
 
 .left-container {
@@ -66,7 +67,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background-color: var(--color-dark-background);
 	padding: 4em 4em 2em 2em;
 	font-size: 1.25rem;
 	font-weight: bold;
@@ -75,8 +75,8 @@ body {
 .form-header {
 	font-size: 1.25rem;
 	font-weight: bold;
-	padding-left: 2em;
-	margin: 1em 0;
+	padding: 1em 0 1em 2em;
+	background-color: #ffffff;
 }
 
 form {
@@ -118,10 +118,6 @@ input:invalid {
 }
 
 .fields {
-	box-shadow: 1px 3px 4px rgb(226, 225, 225);
-	margin-bottom: 2em;
-}
-
-.button {
-	background-color: var(--color-dark-background);
+	background-color: #ffffff;
+	box-shadow: 4px 4px 10px rgb(226, 225, 225);
 }
