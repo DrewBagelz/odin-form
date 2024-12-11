@@ -9,10 +9,11 @@
 :root {
 	--color-left-text: #ffffff;
 	--color-dark-background: #f9fafb;
-	--color-button: #596d48;
 	--color-light-border: #e5e7eb;
+	--color-box-shadow: #c9c6c6;
 	--color-focus: #0b99db;
 	--color-invalid: #db0b0b;
+	--color-button: #596d48;
 }
 
 body {
@@ -76,7 +77,6 @@ body {
 	font-size: 1.25rem;
 	font-weight: bold;
 	padding: 1em 0 1em 2em;
-	background-color: #ffffff;
 }
 
 form {
@@ -98,7 +98,7 @@ input:focus {
 	outline: none;
 	border: 1px solid var(--color-focus);
 	border-radius: 2px;
-	box-shadow: 3px 3px 5px rgb(226, 225, 225);
+	box-shadow: 3px 3px 5px var(--color-box-shadow);
 }
 
 input:invalid {
@@ -119,5 +119,17 @@ input:invalid {
 
 .fields {
 	background-color: #ffffff;
-	box-shadow: 4px 4px 10px rgb(226, 225, 225);
+	box-shadow: 4px 4px 10px var(--color-box-shadow);
+}
+
+.button button {
+	color: var(--color-dark-background);
+	background-color: var(--color-button);
+	font-size: 0.75rem;
+	font-weight: 600;
+	margin: 2em 0 1em 3.333em;
+	padding: 0.8em 3em;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 4px 4px 10px var(--color-box-shadow);
 }
