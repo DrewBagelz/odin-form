@@ -73,11 +73,6 @@ body {
 	font-weight: bold;
 }
 
-.sign-up {
-	display: flex;
-	flex-direction: column;
-}
-
 .form-header {
 	font-size: 1.25rem;
 	font-weight: bold;
@@ -89,7 +84,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	font-size: 0.75rem;
-	padding-left: 3.333em;
+	font-weight: 600;
 }
 
 input {
@@ -100,9 +95,15 @@ input {
 .row {
 	display: flex;
 	margin-bottom: 1.5em;
+	padding-left: 3.333em;
 }
 
 .input-pair {
 	display: flex;
 	flex-direction: column;
+}
+
+.fields {
+	box-shadow: 0 3px 3px silver;
+	margin-bottom: 2em;
 }
