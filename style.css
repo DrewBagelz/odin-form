@@ -137,6 +137,10 @@ input:invalid {
 	box-shadow: 4px 4px 10px var(--color-box-shadow);
 }
 
+.button button:hover {
+	cursor: pointer;
+}
+
 .button p {
 	font-size: 0.75rem;
 	font-weight: 400;
